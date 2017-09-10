@@ -11926,15 +11926,13 @@ div#notebook {
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer:</strong></p>
 <ul>
-<li><p>The three flags that can be set are:</p>
-<ul>
+<li>The three flags that can be set are:<ul>
 <li>num_dummies - This indicates the number of dummy agents in the environment</li>
-<li>epsilon -  This is the exploration factor which determines the extent to which an agent can explore its environment</li>
-<li>alpha - This is learning rate associated with the Q value function. Adjusting this accordingly determines how fast the Q value function converges.</li>
+<li>epsilon - This is the exploration factor which determines the extent to which an agent can explore its environment</li>
+<li>alpha - This is learning rate associated with the Q value function. It determines how much of the reward for a particular action and any future rewards is taken into account.</li>
 </ul>
 </li>
-<li><p>The 'act()' function is called when an agent performs an action.</p>
-</li>
+<li>The 'act()' function is called when an agent performs an action.</li>
 <li>The 'render_text()' function display the current state in a textual format. The 'render()' function displays the same in a GUI using the Python PyGame module.</li>
 <li>The next_waypoint() method considers the East-West Direction first and then the North-South direction.</li>
 </ul>
@@ -13216,8 +13214,8 @@ H72qg7GK/7fQAAAAAElFTkSuQmCC
 <li>inputs-oncoming: 4 states</li>
 <li>actions: 4 possible actions</li>
 </ul>
-<p>Total no. of combinations = 3 X 2 X 4 X 4 X 4  = 384</p>
-<p>384 combinations isn't large. Thus, I believe the driving agent could learn a policy for each possible state within a reasonable number of training trials.</p>
+<p>Total no. of combinations = 3 X 2 X 4 X 4  = 96</p>
+<p>96 combinations isn't large. Thus, I believe the driving agent could learn a policy for each possible state within a reasonable number of training trials.</p>
 
 </div>
 </div>
